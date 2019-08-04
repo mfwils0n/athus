@@ -1,0 +1,36 @@
+empty list error: 
+bullet.x, bullet.y
+138 410
+oleste.hitbox: ( x, y, width, height): 
+109
+390
+34
+50
+oleste.health
+9
+
+-----------------------------
+
+empty list error: 
+bullet.x, bullet.y
+140 410
+oleste.hitbox: ( x, y, width, height): 
+109
+390
+34
+50
+oleste.health
+9
+
+----------------------------
+
+empty list error: 
+bullet.x, bullet.y
+362 410
+oleste.hitbox: ( x, y, width, height): 
+328
+390
+34
+50
+oleste.health
+9

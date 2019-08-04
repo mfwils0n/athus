@@ -1,0 +1,58 @@
+What’s working:
+
+Window:
+- background visible
+- music plays
+
+Athus (player class):
+- visible
+- screen bound
+- user controlled left walk, right walk, jump, shoot animations
+- user controlled shooting
+- collision with enemy projectiles
+- collision with enemies
+- shoot, hit, die sounds
+- dynamic health bar visible
+
+Oleste (enemy1 class):
+- visible
+- set path for left walk, right walk animations
+- appears off screen and walks on screen
+- after walking completely on screen, becomes screen bound
+- collision with player projectiles
+- hit, die sounds
+- dynamic health bar visible
+
+Etro (enemy2 class):
+- visible
+- set path for left walk, right walk, shoot animations
+- appears off screen and walks on screen
+- after walking completely on screen, becomes screen bound
+- collision with player projectiles
+- shoot, hit, die sounds
+- dynamic health bar visible
+
+What’s not working:
+- enemies disappear at 40 seconds
+- game crashes when shooting Oleste too many times (rapid fire):
+	```
+	Traceback (most recent call last):
+  	File "game.py", line 403, in <module>
+    	bullets.pop(bullets.index(bullet))
+	ValueError: <__main__.projectile object at 0x111122748> is not in list
+	```
+
+What’s planned:
+- flying sprite that drops food
+- food heals Athus
+- music mute (M)
+- sound effect mute (N)
+- pause (P)
+- intro screen
+	- play: enter
+	- rules: r
+	- top scores: t
+- how to play screen
+- game over: add score/play again screen
+- improved scoring
+- view top 5 scores
